@@ -1,0 +1,27 @@
+.login-section {
+    height: 100vh;
+    background: url(../../images/login-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    width: 30%;
+    height: 300px;
+}
+
+.login-container .twitter-icon {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.twitter-btn {
+    height: 48px;
+    background: #3772FF;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    border: none;
+}

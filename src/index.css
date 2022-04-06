@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-container {
+  background: #210036;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.top-card {
+  background: #27073B !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+ 
+.task-box {
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+}
+
+.orange-box {
+  background: #FF4500;
+}
+
+.yellow-box {
+  background: #FDCA40;
+}
+
+.twitter-bird {
+  font-size: 30px;
+}
+
+.table-section {
+  color: #fff;
+}
+
+.btn-undone {
+  background: #F61C0D !important;
+  border-radius: 16px !important;
+  color: #fff !important;
+  
+  font-size: 14px !important;
+}
+
+.btn-done {
+  background: #09A129 !important;
+  border-radius: 16px !important;
+  color: #fff !important;
+}
+
+
+.page-link {
+  background: #27073B !important;
+  border: 1px solid #C4C4C4 !important;
+  color: #fff !important;
+}
+
+.page-item.active .page-link {
+  background: #3772FF !important;
+  border: 1px solid #3772FF !important;
+}
+
+
+.task-card {
+  background: #27073B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.successModal .modal-content {
+  background: #27073B;
+}
+
+.successModal p {
+  font-size: 24px;
+}
+
+.successModal .close-btn {
+  cursor: pointer;
+}
